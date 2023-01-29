@@ -1,6 +1,5 @@
 pipeline {
     agent any
-#teste
     stages {
         stage ('Build Docker Image') {
             steps {
